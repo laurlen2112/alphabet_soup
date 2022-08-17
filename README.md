@@ -20,7 +20,7 @@ The original model is comprised of 2 hidden layers with the first layer containi
 
 ![first run](https://github.com/laurlen2112/neural_network_charity_analysis/blob/main/resources/original%20results.png)
 
-* Deliverable 3: Optimize the Model
+* [Deliverable 3](https://github.com/laurlen2112/neural_network_charity_analysis/blob/main/AlphabetSoupCharity_Optimzation.ipynb): Optimize the Model
 
 Various steps were attempted to optimize the results.  Including additional processing of the underlying data.  A decision to bin the "INCOME_AMT" column seemed logical since it has 9 unique values.  
 
