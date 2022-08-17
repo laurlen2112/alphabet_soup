@@ -24,13 +24,9 @@ The original model is comprised of 2 hidden layers with the first layer containi
 
 Various steps were attempted to optimize the results.  Including additional processing of the underlying data.  A decision to bin the "INCOME_AMT" column seemed logical since it has 9 unique values.  
 
-![bin income 1](https://github.com/laurlen2112/neural_network_charity_analysis/blob/main/resources/bin%20income%20amount%201.png)
+![bin income 1](https://github.com/laurlen2112/neural_network_charity_analysis/blob/main/resources/3%20results.png)
 
-The data was processed consistent with the steps described above, including the replacement of column values with binned values and encoding the columns.  Three attempts to optimize the model were made.  Unfortunately, all three attempts presented results similar to the attempt described above.
-
-![3 attempts](https://github.com/laurlen2112/neural_network_charity_analysis/blob/main/resources/optimation%20results.png)
-
-The first optimization attempt replaced the relu activation with tanH. The second attempt added additional layers to the model, and the third attempt additional neurons.   
+ 
 
 ## Summary:
 
