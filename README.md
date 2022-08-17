@@ -26,6 +26,12 @@ Various steps were attempted to optimize the results.  Including additional proc
 
 ![bin income 1](https://github.com/laurlen2112/neural_network_charity_analysis/blob/main/resources/3%20results.png)
 
+The data was processed consistent with the steps described above, including the replacement of column values with binned values and encoding the columns.  Three attempts to optimize the model were made.  Unfortunately, all three attempts presented results similar to the attempt described above.
+
+![3 results](https://github.com/laurlen2112/neural_network_charity_analysis/blob/main/resources/3%20results.png)
+
+The first optimization attempt replaced the relu activation with tanH. The second attempt added additional layers to the model, and the third attempt additional neurons.  
+
  
 
 ## Summary:
