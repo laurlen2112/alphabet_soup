@@ -1,20 +1,20 @@
 # Neural Network Charity Analysis
 
 ## Overview:
-The purpose of this is analysis is to use a neural network to predict whether applicants funded by Alphabet Soup would be successful.  The data file is a CSV containing information on over 34,000 organizations.  This analysis is comprised of two broad steps.  The first step is pre-processesing the code.  The second step attempts various methods of running the data through a neural network and to optimizing it.   The "IS_SUCCESSFUl" column is the target variable because the model is attempting to predict whether the organizations will be successful.  The remaining columns are features of the model.  
+The purpose of this is analysis is to use a neural network to predict whether applicants funded by Alphabet Soup would be successful if funded.  The data file is a CSV containing information on over 34,000 organizations.  This analysis is comprised of three broad steps.  The first step pre-processes the code.  The second step is the first attempt of running the data through a neural network.  The third step employs various methods to optimize it.   The "IS_SUCCESSFUl" column is the target variable because the model is attempting to predict whether the organizations will be successful.  The remaining columns are features of the model.  
 
 ## Results:
 * [Deliverable 1](https://github.com/laurlen2112/neural_network_charity_analysis/blob/main/AlphabetSoupCharity.ipynb): Pre-Processing
 
-Prior to running the data through the neural network it needs to be processed.  Steps include dropping unnecessary fields like EIN and Name were dropped and tabulating the unique values of each column.
+Prior to running the data through the neural network, it needs to be processed.  Steps include dropping unnecessary fields, such as EIN and Name, and tabulating the unique values of each column.
 
 ![unique val](https://github.com/laurlen2112/neural_network_charity_analysis/blob/main/resources/unique%20values.png)
 
-Columns with unique values were binned over 10 were binned.  The binned results were replaced in the data frame and the data frame was encoded prior to running it through the model. 
+Columns with unique values over 10 were binned.  The binned results replaced the original data frame prior to encoding it. 
 
 ![encode table](https://github.com/laurlen2112/neural_network_charity_analysis/blob/main/resources/encode%20table.png)
 
-* Deliverable 2: Process Data Through the Model
+* [Deliverable 2](https://github.com/laurlen2112/neural_network_charity_analysis/blob/main/AlphabetSoupCharity.ipynb): Process Data Through the Model
 
 The original model is comprised of 2 hidden layers with the first layer containing 80 neurons and the second layer containing 30 neurons.  The result of this model is not optimal since it only obtained a 72.7% accuracy rate and data loss of about 55.4%.
 
@@ -34,4 +34,4 @@ The first optimization attempt replaced the relu activation with tanH. The secon
 
 ## Summary:
 
-Since the attempts described above have an accuracy rate of about 72%, the models in their current states are not desirable models to predict success.  As such, more work needs to be completed in order to use machine learning for prediction on this dataset.  It might be beneficial to conduct additional preprocessing of the data such as changing the bins and removing columns from the final analysis.  Also, a Random Forest Classifier (RFC) might be a good model to attempt because RFCs are scalable so they work on a large datasets, are less influenced by outliers, and work well when the dataset calls for binary classification.
+Since the attempts described above have an accuracy rate of about 72%, these models are not desirable models to predict success.  As such, more work needs to be completed in order to use machine learning for prediction on this dataset.  It might be beneficial to conduct additional preprocessing of the data such as changing the bins and removing columns from the final analysis.  Also, a Random Forest Classifier (RFC) might be a good model to attempt because RFCs are scalable so they work on a large datasets, are less influenced by outliers, and work well when the dataset calls for binary classification.
