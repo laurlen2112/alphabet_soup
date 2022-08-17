@@ -4,7 +4,7 @@
 The purpose of this is analysis is to use a neural network to predict whether applicants funded by Alphabet Soup would be successful.  The data file is a CSV containing information on over 34,000 organizations.  This analysis is comprised of two broad steps.  The first step is pre-processesing the code.  The second step attempts various methods of running the data through a neural network and to optimizing it.   The "IS_SUCCESSFUl" column is the target variable because the model is attempting to predict whether the organizations will be successful.  The remaining columns are features of the model.  
 
 ## Results:
-* Deliverable 1: Pre-Processing
+* [Deliverable 1](https://github.com/laurlen2112/neural_network_charity_analysis/blob/main/AlphabetSoupCharity.ipynb): Pre-Processing
 
 Prior to running the data through the neural network it needs to be processed.  Steps include dropping unnecessary fields like EIN and Name were dropped and tabulating the unique values of each column.
 
