@@ -1,7 +1,9 @@
 # Neural Network Charity Analysis
 
 ## Overview:
-The purpose of this is analysis is to use a neural network to predict whether applicants funded by Alphabet Soup would be successful if funded.  The data file is a CSV containing information on over 34,000 organizations.  This analysis is comprised of three broad steps.  The first step pre-processes the code.  The second step is the first attempt of running the data through a neural network.  The third step employs various methods to optimize it.   The "IS_SUCCESSFUl" column is the target variable because the model is attempting to predict whether the organizations will be successful.  The remaining columns are features of the model.  
+The purpose of this is analysis is to use a neural network to predict whether applicants funded by Alphabet Soup would be successful if funded.  
+
+The data file is a CSV containing information on over 34,000 organizations.  This analysis is comprised of three broad steps.  The first step pre-processes the code.  The second step contains the first attempt of running the data through a neural network.  The third step employs various methods to optimize it.   The "IS_SUCCESSFUl" column is the target variable because the model is attempting to predict whether the organizations will be successful.  The remaining columns are features of the model.  
 
 ## Results:
 * [Deliverable 1](https://github.com/laurlen2112/neural_network_charity_analysis/blob/main/AlphabetSoupCharity.ipynb): Pre-Processing
@@ -22,10 +24,9 @@ The original model is comprised of 2 hidden layers with the first layer containi
 
 * [Deliverable 3](https://github.com/laurlen2112/neural_network_charity_analysis/blob/main/AlphabetSoupCharity_Optimzation.ipynb): Optimize the Model
 
-Various steps were attempted to optimize the results.  Including additional processing of the underlying data.  A decision to bin the "INCOME_AMT" column seemed logical since it has 9 unique values.  
+Various steps were completed in an attempt to optimize the results.  Additional processing of the underlying data included a decision to bin the "INCOME_AMT" column seemed because it has 9 unique values.  
 
-![bin income 1](https://github.com/laurlen2112/neural_network_charity_analysis/blob/main/resources/3%20results.png)
-
+![bin income 1](https://github.com/laurlen2112/neural_network_charity_analysis/blob/main/resources/bin%20income%20amount%201.png)
 The data was processed consistent with the steps described above, including the replacement of column values with binned values and encoding the columns.  Three attempts to optimize the model were made.  Unfortunately, all three attempts presented results similar to the attempt described above.
 
 ![3 results](https://github.com/laurlen2112/neural_network_charity_analysis/blob/main/resources/3%20results.png)
